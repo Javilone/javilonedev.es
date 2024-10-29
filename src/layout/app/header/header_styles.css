@@ -1,0 +1,43 @@
+.app-style {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0 0 0;
+  height: 150px;
+  width: 100%;
+  z-index: 10;
+  background: linear-gradient(to bottom, #2a2e32bd 90%, #2a2e3200);
+}
+
+.app-style h1 {
+  background: linear-gradient(to right, #16ea2f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-style h1,
+h4 {
+  margin: 0;
+}
+
+.app-style h4 {
+  color: #16ea2f;
+}
+
+.app-style a {
+  display: inline-block;
+  margin: 18px 18px 4px 18px;
+  transition: 0.5s all ease-in-out;
+}
+
+.app-style a:hover {
+  cursor: pointer;
+  color: #feb47b;
+  transform: scale(1.2);
+  transition: 0.5s all ease-in-out;
+}

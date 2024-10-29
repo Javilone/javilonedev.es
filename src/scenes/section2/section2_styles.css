@@ -1,0 +1,8 @@
+.section2-global {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  color: #f3f3f3;
+  height: 100vh;
+}
