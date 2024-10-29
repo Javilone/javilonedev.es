@@ -10,7 +10,7 @@ import "../init/init_styles.css";
 export const InitPage: React.FC = () => {
   return (
     <>
-      <hr id="0" />
+      <hr id="0" className="top-hr" />
       <Section0></Section0>
       <hr id="1" />
       <Section1></Section1>

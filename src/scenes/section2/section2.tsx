@@ -4,10 +4,8 @@ import "../section2/section2_styles.css";
 
 export const Section2: React.FC = () => {
   return (
-    <div className="section2-global">
-      <div className="init-menu">
-        <p>Plantilla 2</p>
-      </div>
+    <div className="section-global">
+      <h3 className="section-title">Proyectos</h3>
     </div>
   );
 };

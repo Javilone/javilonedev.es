@@ -11,3 +11,36 @@ a {
   text-decoration: none;
   color: #16ea2f;
 }
+
+.mark-up-text {
+  color: #feb47b;
+}
+
+.section-title {
+  background: linear-gradient(to right, #16ea2f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.section-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto 200px auto;
+  color: #f3f3f3;
+  height: 100vh;
+  text-align: center;
+}
+
+hr {
+  visibility: hidden;
+  transform: translateY(-180px);
+  margin: 0;
+}
+
+.top-hr {
+  visibility: hidden;
+  transform: translateY(-180px);
+  margin: 0 0 226px 0;
+}

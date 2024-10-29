@@ -1,8 +1,28 @@
-.section1-global {
+.section1-global p {
+  margin: 0 28px 28px 28px;
+}
+
+.section1-icons {
+  text-align: center;
+}
+
+.section1-icons img {
+  width: 60px;
+  margin: 5px;
+}
+
+.section1-soft-skills {
+  padding: 12px;
+  height: 248px;
+  overflow: scroll;
+  border-radius: 12px;
+  background-color: #54595f;
+  cursor: pointer;
+}
+
+.scroll-up-down {
   display: flex;
-  flex-direction: row;
-  width: 70%;
-  margin: 0 auto;
-  color: #f3f3f3;
-  height: 100vh;
+  z-index: 1;
+  width: 50px;
+  margin-top: -20px;
 }

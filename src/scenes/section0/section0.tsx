@@ -6,7 +6,7 @@ export const Section0: React.FC = () => {
   return (
     <>
       <div className="init-global" id="init">
-        <img className="id-foto" src="/images/javierll.jpeg" />
+        <img className="init-id-foto" src="/images/javierll.jpeg" />
         <div>
           <p>
             Soy <span className="mark-up-text">Javier López. L. Programador y desarrollador Front End.</span>
