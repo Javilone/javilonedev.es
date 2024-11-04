@@ -1,27 +1,15 @@
-body {
-  box-sizing: border-box;
-  margin: 0;
-  height: 100vh;
-  background-color: #2a2e32;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.3rem;
-}
-
 a {
   text-decoration: none;
   color: #16ea2f;
 }
 
-.mark-up-text {
-  color: #feb47b;
-}
-
 .section-title {
-  background: linear-gradient(to right, #16ea2f, #feb47b);
+  /* background linear gradient en theme.css */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .section-global {
   display: flex;
   flex-direction: column;
@@ -43,4 +31,24 @@ hr {
   visibility: hidden;
   transform: translateY(-180px);
   margin: 0 0 226px 0;
+}
+
+.fadeIn0 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.fadeIn {
+  transition: 0.3s ease-in-out;
+}
+
+.visible {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  .section-global {
+    width: 85%;
+  }
 }

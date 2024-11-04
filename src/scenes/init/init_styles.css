@@ -3,8 +3,10 @@
   flex-direction: row;
   width: 70%;
   margin: 0 auto 200px auto;
-  color: #f3f3f3;
+  /* text color definido en theme.css */
 }
+
+/* mark-up-text en theme.css */
 
 .init-id-foto {
   width: 100%;
@@ -12,7 +14,7 @@
   min-width: 220px;
   height: 370px;
   border-radius: 12px;
-  border: 2px solid white;
+  /* border color & style en theme.css*/
   margin: 0 0 0 28px;
   object-fit: cover;
 }
@@ -30,6 +32,6 @@
   }
 
   .init-id-foto {
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
   }
 }

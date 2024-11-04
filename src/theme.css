@@ -1,0 +1,69 @@
+[data-theme="light"] {
+  --bg-color: rgb(245, 245, 245);
+  --text-color: black;
+  --markUp-color: #f96c00;
+  --app-style-bg: linear-gradient(to bottom, #2a2e32e9 90%, #2a2e3200);
+  --theme-icon-bg: #feb47b;
+  --theme-icon-border: #feb47b;
+  --git-icon: black;
+  --section-color-1: #00d719;
+  --section-color-2: #f96c00;
+  --scroll-up-down: #54595f;
+}
+
+[data-theme="dark"] {
+  --bg-color: #2a2e32;
+  --text-color: white;
+  --markUp-color: #feb47b;
+  --app-style-bg: linear-gradient(to bottom, #2a2e32bd 90%, #2a2e3200);
+  --theme-icon-bg: #16ea2f;
+  --theme-icon-border: #16ea2f;
+  --git-icon: rgba(255, 255, 255, 0);
+  --section-color-1: #16ea2f;
+  --section-color-2: #feb47b;
+  --scroll-up-down: #2a2e32;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app-style {
+  background: var(--app-style-bg);
+}
+
+.theme-icon {
+  background-color: var(--theme-icon-bg);
+  border: 1px solid var(--theme-icon-border);
+}
+
+.init-global {
+  color: var(--text-color);
+}
+
+.mark-up-text {
+  color: var(--markUp-color);
+}
+
+.init-id-foto {
+  border: 2px solid var(--text-color);
+}
+
+.section-title {
+  background: linear-gradient(to right, var(--section-color-1), var(--section-color-2));
+}
+
+.theme-git-icon {
+  background-color: var(--git-icon);
+  border-radius: 40px;
+}
+
+.scroll-up-down {
+  background-color: var(--scroll-up-down);
+}

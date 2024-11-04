@@ -1,11 +1,14 @@
 import React from "react";
 
 import "../init/init_styles.css";
+import "../../styles.css";
+
+import "../../pods/fadeIn";
 
 export const Section0: React.FC = () => {
   return (
     <>
-      <div className="init-global" id="init">
+      <div className="init-global fadeIn0" id="init">
         <img className="init-id-foto" src="/images/javierll.jpeg" />
         <div>
           <p>

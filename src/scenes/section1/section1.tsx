@@ -3,9 +3,11 @@ import React from "react";
 import "../section1/section1_styles.css";
 import "../section1/animista_anims.css";
 
+import "../../pods/fadeIn";
+
 export const Section1: React.FC = () => {
   return (
-    <div className="section-global">
+    <div className="section-global fadeIn1">
       <h3 className="section-title">Habilidades técnicas</h3>
       <div className="section1-icons">
         <img className="heartbeat" src="/icons/html5.svg" />
@@ -16,7 +18,7 @@ export const Section1: React.FC = () => {
         <img className="heartbeat" src="/icons/mysql.svg" />
         <img className="heartbeat" src="/icons/bootstrap.svg" />
         <img className="heartbeat" src="/icons/figma.svg" />
-        <img className="heartbeat" src="/icons/github.svg" />
+        <img className="heartbeat theme-git-icon" src="/icons/github.svg" />
         <img className="heartbeat" src="/icons/vite.svg" />
       </div>
       <h3 className="section-title">Habilidades blandas</h3>
