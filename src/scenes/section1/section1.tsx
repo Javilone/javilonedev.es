@@ -8,7 +8,7 @@ import "../../pods/fadeIn";
 export const Section1: React.FC = () => {
   return (
     <div className="section-global fadeIn1">
-      <h3 className="section-title">Habilidades técnicas</h3>
+      <h3 className="section-title">Skills</h3>
       <div className="section1-icons">
         <img className="heartbeat" src="/icons/html5.svg" />
         <img className="heartbeat" src="/icons/css3.svg" />
@@ -21,7 +21,6 @@ export const Section1: React.FC = () => {
         <img className="heartbeat theme-git-icon" src="/icons/github.svg" />
         <img className="heartbeat" src="/icons/vite.svg" />
       </div>
-      <h3 className="section-title">Habilidades blandas</h3>
       <div className="section1-soft-skills">
         <p>
           <span className="mark-up-text">Adaptabilidad</span>: Capacidad para adaptarme a nuevas tecnologías y entornos de trabajo.

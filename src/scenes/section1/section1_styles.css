@@ -13,10 +13,11 @@
 
 .section1-soft-skills {
   padding: 12px;
+  margin-top: 30px;
   height: 248px;
   overflow: scroll;
   border-radius: 12px;
-  background-color: #54595f;
+  /* background color y color en theme.css */
   cursor: pointer;
 }
 
@@ -32,6 +33,7 @@
 @media screen and (max-width: 700px) {
   .section1-soft-skills {
     width: 100%;
-    height: 650px;
+    height: 350px;
+    padding: 0px;
   }
 }

@@ -4,6 +4,8 @@
   width: 70%;
   margin: 0 auto 200px auto;
   /* text color definido en theme.css */
+  opacity: 1;
+  transition: 0.7s ease-in-out;
 }
 
 /* mark-up-text en theme.css */
