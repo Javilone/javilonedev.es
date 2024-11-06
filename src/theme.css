@@ -2,7 +2,7 @@
   --bg-color: rgb(230, 228, 228);
   --text-color: black;
   --markUp-color: #f96c00;
-  --app-style-bg: linear-gradient(to bottom, #2a2e32e9 90%, #2a2e3200);
+  --app-style-bg: linear-gradient(to bottom, #ffffffe9 90%, #2a2e3200);
   --theme-icon-bg: #feb47b;
   --theme-icon-border: #feb47b;
   --git-icon: black;
@@ -15,6 +15,9 @@
   --project-img-border: #2a2e32;
   --project-text-color: black;
   --project-anchor-color: #00ae14;
+  --separator: black;
+  --footer-bg: #ffffffe9;
+  --footer-font-weight: bold;
 }
 
 [data-theme="dark"] {
@@ -34,6 +37,9 @@
   --project-img-border: rgb(245, 245, 245);
   --project-text-color: white;
   --project-anchor-color: #16ea2f;
+  --separator: white;
+  --footer-bg: #2a2e32;
+  --footer-font-weight: inherit;
 }
 
 body {
@@ -97,4 +103,13 @@ body {
 
 .project-anchor {
   color: var(--project-anchor-color);
+}
+
+.separator {
+  background-color: var(--separator);
+}
+
+.app-footer-style {
+  background-color: var(--footer-bg);
+  font-weight: var(--footer-font-weight);
 }

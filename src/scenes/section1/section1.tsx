@@ -23,19 +23,16 @@ export const Section1: React.FC = () => {
       </div>
       <div className="section1-soft-skills">
         <p>
+          <span className="mark-up-text">Atención al detalle</span>: Habilidad para detectar detalles sutiles que contribuyen a la exactitud y excelencia en el trabajo.
+        </p>
+        <p>
           <span className="mark-up-text">Adaptabilidad</span>: Capacidad para adaptarme a nuevas tecnologías y entornos de trabajo.
         </p>
         <p>
           <span className="mark-up-text">Comunicación efectiva</span>: Fuerte comunicación para colaborar con equipos multidisciplinarios.
         </p>
         <p>
-          <span className="mark-up-text">Empatía</span>: Comprensión de las necesidades del usuario para mejorar la experiencia de usuario.
-        </p>
-        <p>
           <span className="mark-up-text">Gestión del tiempo</span>: Habilidad para cumplir con plazos de entrega en proyectos.
-        </p>
-        <p>
-          <span className="mark-up-text">Pensamiento crítico</span>: Análisis de problemas y toma de decisiones informadas.
         </p>
         <p>
           <span className="mark-up-text">Resolución de problemas</span>: Enfoque proactivo para abordar desafíos técnicos.
@@ -45,6 +42,12 @@ export const Section1: React.FC = () => {
         </p>
         <p>
           <span className="mark-up-text">Visión global</span>: Comprensión del contexto del proyecto y su impacto.
+        </p>
+        <p>
+          <span className="mark-up-text">Empatía</span>: Comprensión de las necesidades del usuario para mejorar la experiencia de usuario.
+        </p>
+        <p>
+          <span className="mark-up-text">Pensamiento crítico</span>: Análisis de problemas y toma de decisiones informadas.
         </p>
       </div>
       <img className="scroll-up-down" src="/icons/scroll-up-down.svg" />

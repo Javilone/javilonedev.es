@@ -4,7 +4,7 @@ import ProjectCard from "./project_component";
 const PalindromeProject: React.FC = () => {
   return (
     <ProjectCard
-      projectUrl="https://www.javilonedev.es/html/05_PalindromeChecker/palindrome.html"
+      projectUrl="https://palindrome-checker-gules.vercel.app"
       imageUrl="/images/palindromeApp.png"
       title="Palindrome App"
       description={
