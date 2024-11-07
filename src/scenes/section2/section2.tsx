@@ -9,6 +9,7 @@ import RomanProject from "../../pods/section2/caller_RomanConverter";
 import PalindromeProject from "../../pods/section2/caller_palindrome";
 import SieteYMediaProject from "../../pods/section2/caller_sieteYmedia";
 import TraineeProjectsContainer from "../../pods/section2/trainee_Projects";
+import JavilonedevProject from "../../pods/section2/caller_Javilonedev";
 
 export const Section2: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ export const Section2: React.FC = () => {
       <h3 className="section-title">{`< Proyectos />`}</h3>
       <YullsProject />
       <RickMortyProject />
+      <JavilonedevProject />
       <MedacProject />
       <TraineeProjectsContainer>
         <SieteYMediaProject />

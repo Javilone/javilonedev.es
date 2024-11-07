@@ -1,0 +1,43 @@
+.mi-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+  /* text color definido en theme.css */
+  opacity: 1;
+  transition: 0.7s ease-in-out;
+}
+
+.mi-container p {
+  margin: 0 28px 28px 28px;
+}
+
+.mi-text {
+  text-align: left;
+  width: 70%;
+}
+
+.mi-text a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.mi-text a:hover {
+  color: #feb47b;
+}
+
+@media screen and (max-width: 700px) {
+  .mi-container {
+    flex-direction: column;
+  }
+
+  .mi-container p {
+    margin: 0 2px 28px 2px;
+  }
+
+  .mi-text {
+    text-align: center;
+    width: 100%;
+  }
+}

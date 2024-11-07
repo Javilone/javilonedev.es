@@ -16,10 +16,10 @@ export const InitPage: React.FC = () => {
       <Section1></Section1>
       <hr id="2" />
       <Section2></Section2>
-      <hr id="3" />
-      <Section3></Section3>
       <hr id="4" />
       <Section4></Section4>
+      <hr id="3" />
+      <Section3></Section3>
     </>
   );
 };

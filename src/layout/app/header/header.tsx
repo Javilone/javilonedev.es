@@ -27,10 +27,8 @@ export const AppHeader: React.FC = () => {
   };
 
   useEffect(() => {
-    // Añade el listener del scroll
     window.addEventListener("scroll", handleScroll);
 
-    // Limpia el listener al desmontar el componente
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -46,18 +44,18 @@ export const AppHeader: React.FC = () => {
           <h1>javilonedev</h1>
         </Link>
         <h4>= Frontend Developer =</h4>
-        <span>
+        <span className="header-span">
           <Link to="1" smooth={true} duration={500}>
             <div className={`activeAnchor ${activeLink === "section1" ? "anchorActivated" : ""}`}>Skills</div>
           </Link>
           <Link to="2" smooth={true} duration={500}>
             <div className={`activeAnchor ${activeLink === "section2" ? "anchorActivated" : ""}`}>Proyectos</div>
           </Link>
-          <Link to="3" smooth={true} duration={500}>
-            <div className={`activeAnchor ${activeLink === "section3" ? "anchorActivated" : ""}`}>CV</div>
-          </Link>
           <Link to="4" smooth={true} duration={500}>
             <div className={`activeAnchor ${activeLink === "section4" ? "anchorActivated" : ""}`}>Contacto</div>
+          </Link>
+          <Link to="3" smooth={true} duration={500}>
+            <div className={`activeAnchor ${activeLink === "section3" ? "anchorActivated" : ""}`}>Mí</div>
           </Link>
         </span>
       </div>

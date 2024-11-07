@@ -7,7 +7,7 @@ import { Mailcopy } from "../../pods/section4/contact_mail_copy";
 
 export const Section4: React.FC = () => {
   return (
-    <div className="section-global fadeIn4">
+    <div className="section-global fadeIn3">
       <h3 className="section-title">Contacto</h3>
       <div className="contact-container">
         <Contact />

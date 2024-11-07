@@ -101,5 +101,10 @@
   .trainee-projects {
     width: 100%;
     padding: 8px;
+    height: 400px;
+  }
+
+  .trainee-title {
+    margin-bottom: 24px;
   }
 }

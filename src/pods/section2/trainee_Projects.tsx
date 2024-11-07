@@ -6,6 +6,7 @@ const TraineeProjectsContainer: React.FC<{ children: React.ReactNode }> = ({ chi
     <>
       <div className="trainee-projects section1-soft-skills">
         <a className="section-title">{`< Proyectos trainee />`}</a>
+        <div className="trainee-title"></div>
         {children}
       </div>
       <img className="scroll-up-down" src="/icons/scroll-up-down.svg" />
