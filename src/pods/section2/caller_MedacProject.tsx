@@ -6,7 +6,7 @@ const MedacProject: React.FC = () => {
     <ProjectCard
       projectUrl="https://github.com/Javilone/Basic_Login_Medac"
       imageUrl="/images/basicloginmedac.png"
-      title="Juego Educativo de Higiene Bucodental - Sistema de Login"
+      title="Sistema de Login - Juego Educativo de Higiene Bucodental"
       description={
         <>
           <span className="mark-up-text">Sistema de inicio de sesión sencillo en Unity</span> para un juego educativo enfocado en el aprendizaje de la higiene bucodental. Animaciones y efectos (videos en GitHub). Trabajando de forma colaborativa con

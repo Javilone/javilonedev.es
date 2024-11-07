@@ -6,6 +6,7 @@
   --theme-icon-bg: #feb47b;
   --theme-icon-border: #feb47b;
   --git-icon: black;
+  --react-icon: white;
   --section-color-1: #00d719;
   --section-color-2: #f96c00;
   --scroll-up-down: #54595f;
@@ -18,6 +19,7 @@
   --separator: black;
   --footer-bg: #ffffffe9;
   --footer-font-weight: bold;
+  --copy-icon-bg: #54595f;
 }
 
 [data-theme="dark"] {
@@ -40,6 +42,7 @@
   --separator: white;
   --footer-bg: #2a2e32;
   --footer-font-weight: inherit;
+  --copy-icon-bg: black;
 }
 
 body {
@@ -79,7 +82,12 @@ body {
 
 .theme-git-icon {
   background-color: var(--git-icon);
-  border-radius: 40px;
+  border-radius: 10px;
+}
+
+.theme-react-icon {
+  background-color: var(--react-icon);
+  border-radius: 10px;
 }
 
 .scroll-up-down {
@@ -112,4 +120,12 @@ body {
 .app-footer-style {
   background-color: var(--footer-bg);
   font-weight: var(--footer-font-weight);
+}
+
+.copy-icon {
+  background-color: var(--copy-icon-bg);
+}
+
+.git-icon {
+  background-color: var(--copy-icon-bg);
 }

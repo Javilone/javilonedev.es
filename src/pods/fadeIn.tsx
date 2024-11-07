@@ -2,7 +2,7 @@ document.addEventListener("scroll", () => {
   const scrollPosition = window.scrollY;
 
   // Define los umbrales para cada fadeIn
-  const thresholds = [700, 1550, 4500, 8900];
+  const thresholds = [700, 1550, 4700, 8900];
 
   for (let index = 0; index < thresholds.length; index++) {
     const fadeElements = document.getElementsByClassName(`fadeIn${index}`);

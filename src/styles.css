@@ -19,7 +19,7 @@ a {
   color: #f3f3f3;
   text-align: center;
   opacity: 1;
-  transition: 0.7s ease-in-out;
+  transition: 1.7s all ease-in-out;
 }
 
 hr {
@@ -36,8 +36,12 @@ hr {
 
 .visible {
   opacity: 0;
-  transition: 0.7s ease-in-out;
+  transition: 1.7s ease-in-out;
 }
+
+/* [class^="fadeIn"] {
+  transition: 3.7s all ease-in-out;
+} */
 
 @media screen and (max-width: 700px) {
   .section-global {

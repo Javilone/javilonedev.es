@@ -1,0 +1,44 @@
+.contact-icon {
+  width: 120px;
+}
+
+.copy-icon {
+  width: 90px;
+  padding: 8px;
+  border-radius: 90px;
+  /* background-color en theme.css */
+}
+
+.git-icon {
+  /* background-color: en theme.css */
+  border-radius: 90px;
+  width: 110px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 22px;
+  color: #f3f3f3;
+  text-align: center;
+  opacity: 1;
+  transition: 0.7s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-icon {
+    width: 90px;
+  }
+
+  .copy-icon {
+    width: 68px;
+  }
+
+  .git-icon {
+    width: 85px;
+  }
+}

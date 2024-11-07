@@ -15,6 +15,7 @@ export const Section1: React.FC = () => {
         <img className="heartbeat" src="/icons/sass.svg" />
         <img className="heartbeat" src="/icons/javascript.svg" />
         <img className="heartbeat" src="/icons/typescript.svg" />
+        <img className="heartbeat theme-react-icon" src="/icons/react.svg" />
         <img className="heartbeat" src="/icons/mysql.svg" />
         <img className="heartbeat" src="/icons/bootstrap.svg" />
         <img className="heartbeat" src="/icons/figma.svg" />
