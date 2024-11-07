@@ -1,9 +1,9 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
-const basePath = __dirname;
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  context: path.join(basePath, "src"),
+  context: path.join(__dirname, "src"),
   resolve: {
     extensions: [".js", ".ts", ".tsx"],
   },
@@ -24,8 +24,11 @@ module.exports = {
         loader: "babel-loader",
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
         type: "asset/resource",
+        generator: {
+          filename: "images/[name][hash][ext]",
+        },
       },
       {
         test: /\.html$/,
@@ -49,10 +52,17 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
-    //Generate index.html in /dist => https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: "index.html", //Name of file in ./dist/
-      template: "index.html", //Name of template in ./src
+      filename: "index.html",
+      template: "index.html",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "public"), // Asegúrate de copiar desde public en la raíz
+          to: path.resolve(__dirname, "dist"), // Al directorio de salida (dist)
+        },
+      ],
     }),
   ],
 };

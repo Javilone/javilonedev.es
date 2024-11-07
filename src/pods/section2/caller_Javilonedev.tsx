@@ -6,7 +6,7 @@ const JavilonedevProject: React.FC = () => {
     <ProjectCard
       projectUrl=""
       imageUrl="/images/javilonedev.png"
-      title="Buscador de GitHub y Rick & Morty - Aplicación React"
+      title="Portfolio personal - Javilonedev"
       description={
         <>
           Este portafolio fue creado con tecnologías como React, TypeScript y Webpack, con el objetivo de mostrar mis habilidades y proyectos como desarrollador Front-End. La aplicación es completamente responsiva y permite cambiar el tema de color,

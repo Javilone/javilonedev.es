@@ -20,6 +20,7 @@
   --footer-bg: #ffffffe9;
   --footer-font-weight: bold;
   --copy-icon-bg: #54595f;
+  --mi-text-color: black;
 }
 
 [data-theme="dark"] {
@@ -43,6 +44,7 @@
   --footer-bg: #2a2e32;
   --footer-font-weight: inherit;
   --copy-icon-bg: black;
+  --mi-text-color: white;
 }
 
 body {
@@ -128,4 +130,8 @@ body {
 
 .git-icon {
   background-color: var(--copy-icon-bg);
+}
+
+.mi-text {
+  color: var(--mi-text-color);
 }
