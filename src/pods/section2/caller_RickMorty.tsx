@@ -4,7 +4,7 @@ import ProjectCard from "./project_component";
 const RickMortyProject: React.FC = () => {
   return (
     <ProjectCard
-      projectUrl=""
+      projectUrl="https://github.com/Javilone/Master-Lemoncode-Entregas/tree/main/Modulo%2004/entrega-basica"
       imageUrl="/images/rickmorty.png"
       title="Buscador de GitHub y Rick & Morty - Aplicación React"
       description={

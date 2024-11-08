@@ -47,4 +47,14 @@ hr {
   .section-global {
     width: 92%;
   }
+
+  hr {
+    transform: translateY(-60px);
+  }
+
+  .top-hr {
+    visibility: hidden;
+    transform: translateY(-180px);
+    margin: 0 0 96px 0;
+  }
 }

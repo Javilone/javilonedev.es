@@ -2,8 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
+const TerserPlugin = require("terser-webpack-plugin");
+
 module.exports = {
   context: path.join(__dirname, "src"),
+  mode: "production",
   resolve: {
     extensions: [".js", ".ts", ".tsx"],
   },
@@ -50,6 +53,10 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+  },
+  optimization: {
+    minimize: true, // Habilita la minimización
+    minimizer: [new TerserPlugin()], // Usa el TerserPlugin para minificar
   },
   plugins: [
     new HtmlWebpackPlugin({

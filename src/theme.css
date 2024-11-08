@@ -135,3 +135,9 @@ body {
 .mi-text {
   color: var(--mi-text-color);
 }
+
+/* @media screen and (max-width: 700px) {
+  .app-style {
+    background: #2a2e3296;
+  }
+} */
